@@ -1,4 +1,4 @@
-# CCFest26
+# CCFest26 — Generative art framework
 Workshop resources for CCFest Festival 2026 — Generative art framework
 
 ## Sketches collection
