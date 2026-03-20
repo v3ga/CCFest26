@@ -25,6 +25,7 @@ Some top-level functions are included in ```utils.js``` file.
 
 ### Random
 Useful functions that are built upon ```random_dec()```function that returns a number between ```0.0``` and ```1.0```
+Using [prng](https://github.com/dworthen/prng) repository
 ```js
 // --------------------------------
 // random number between a (inclusive) and b (exclusive)
@@ -42,6 +43,7 @@ var random_choice = (a) => { return a[random_int(0, a.length - 1)] }
 ```
 
 ### Typography
+https://editor.p5js.org/v3ga/sketches/f9_-ZmzGa
 ```js
 // ----------------------------------------------------
 // Given a font and a string, returns an array of
@@ -55,8 +57,9 @@ function getVerticesUniformForString(font,str,xStr,yStr,fontSize,opts={})
 }
 ```
 
-
 ### Geometry
+https://editor.p5js.org/v3ga/sketches/QV2lJ4YfD
+
 ```js
 // ----------------------------------------------------
 // returns vertices (array) distributed on a grid
@@ -77,6 +80,9 @@ function getVerticesInQuad(vertices, quadVertices, opts={})
   // ...
 }
 ```
+
+### User interface
+See example here : https://editor.p5js.org/v3ga/sketches/-QbjsKGf4
 
 
 
