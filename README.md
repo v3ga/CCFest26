@@ -44,6 +44,9 @@ var random_choice = (a) => { return a[random_int(0, a.length - 1)] }
 
 ### Typography
 https://editor.p5js.org/v3ga/sketches/f9_-ZmzGa
+
+<img src="ccfest26_typo.jpg" width="300" />
+
 ```js
 // ----------------------------------------------------
 // Given a font and a string, returns an array of
@@ -59,6 +62,8 @@ function getVerticesUniformForString(font,str,xStr,yStr,fontSize,opts={})
 
 ### Geometry
 https://editor.p5js.org/v3ga/sketches/QV2lJ4YfD
+
+<img src="ccfest26_quad_mapping.jpg" width="300" />
 
 ```js
 // ----------------------------------------------------
