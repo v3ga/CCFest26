@@ -2,6 +2,8 @@
 
 https://ccfest.rocks/
 
+Participants were guided in building a small generative system based on seeded randomness, showing how simple rules, parameter controls, and reproducible outputs can create endless visual variation.
+
 <img src="ccfest_export_00001.jpeg" width="200" /><img src="ccfest_export_00002.jpeg" width="200" /><img src="ccfest_export_00003.jpeg" width="200" /><img src="ccfest_export_00004.jpeg" width="200" /><img src="ccfest_export_00005.jpeg" width="200" /><img src="ccfest_export_00006.jpeg" width="200" />
 
 ## Sketches collection
