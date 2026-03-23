@@ -4,10 +4,15 @@ https://ccfest.rocks/
 
 Participants were guided in building a small generative system based on seeded randomness, showing how simple rules, parameter controls, and reproducible outputs can create endless visual variation.
 
-<img src="ccfest_export_00001.jpeg" width="200" /><img src="ccfest_export_00002.jpeg" width="200" /><img src="ccfest_export_00003.jpeg" width="200" /><img src="ccfest_export_00004.jpeg" width="200" /><img src="ccfest_export_00005.jpeg" width="200" /><img src="ccfest_export_00006.jpeg" width="200" />
-
 ## Sketches collection
 https://editor.p5js.org/v3ga/collections/of1JrIKH5
+
+- [Pseudo Random Numbers Generators](https://editor.p5js.org/v3ga/sketches/uDq8TsWyd)
+- [Typography utils](https://editor.p5js.org/v3ga/sketches/f9_-ZmzGa)
+- [Quad mapping](https://editor.p5js.org/v3ga/sketches/QV2lJ4YfD)
+- Final composition [1](https://editor.p5js.org/v3ga/sketches/zB4jJA2ii) & [2](https://editor.p5js.org/v3ga/sketches/xSyqU4auS)
+
+<img src="ccfest_export_00001.jpeg" width="200" /><img src="ccfest_export_00002.jpeg" width="200" /><img src="ccfest_export_00003.jpeg" width="200" /><img src="ccfest_export_00004.jpeg" width="200" /><img src="ccfest_export_00005.jpeg" width="200" /><img src="ccfest_export_00006.jpeg" width="200" />
 
 ### Roll dices
 <em>"In most implementations if not in all, ```Math.random```'s generator is silently seeded at startup by some supposedly random value, usually the present time to the millisecond or whatever other granularity the system provides.
@@ -29,6 +34,8 @@ From [dworthen/prng repository](https://github.com/dworthen/prng?tab=readme-ov-f
 Some top-level functions are included in ```utils.js``` file.
 
 ### Random
+https://editor.p5js.org/v3ga/sketches/uDq8TsWyd
+
 Useful functions that are built upon ```random_dec()```function that returns a number between ```0.0``` and ```1.0```
 Using [prng](https://github.com/dworthen/prng) repository
 ```js
