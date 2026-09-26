@@ -101,6 +101,14 @@ function getVerticesInQuad(vertices, quadVertices, opts={})
 ### User interface
 See example here : https://editor.p5js.org/v3ga/sketches/-QbjsKGf4
 
+# CCFest26 — Recoding : Tracing the origins of generative art
+“Recoding” is a short workshop exploring the logic of early generative art through the reinterpretation of a single historical artwork: Segrid (1973) by John Roy.
+
+The workshop will focus on how the image is constructed through rules, repetition, variation, and algorithmic constraints, following approaches developed by pioneers of computer art in the 1960s and 70s.
+
+It builds on the recent relaunch of recodeproject.com, a platform dedicated to preserving and revisiting historical generative artworks.
+
+
 
 
 
