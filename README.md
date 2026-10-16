@@ -1,10 +1,14 @@
-# CCFest26 — Generative art framework
+# CCFest26
 
-https://ccfest.rocks/
+- **Generative art framework** — Saturday, March 21, 2026
+- **Recoding : Tracing the origins of generative art** — Saturday, October 17, 2026
 
+## Generative art framework
 Participants were guided in building a small generative system based on seeded randomness, showing how simple rules, parameter controls, and reproducible outputs can create endless visual variation.
 
-## Sketches collection
+https://saber-khan-hp7r.squarespace.com/march21-2026
+
+### Sketches collection
 https://editor.p5js.org/v3ga/collections/of1JrIKH5
 
 - [Pseudo Random Numbers Generators](https://editor.p5js.org/v3ga/sketches/uDq8TsWyd)
@@ -14,26 +18,26 @@ https://editor.p5js.org/v3ga/collections/of1JrIKH5
 
 <img src="ccfest_export_00001.jpeg" width="200" /><img src="ccfest_export_00002.jpeg" width="200" /><img src="ccfest_export_00003.jpeg" width="200" /><img src="ccfest_export_00004.jpeg" width="200" /><img src="ccfest_export_00005.jpeg" width="200" /><img src="ccfest_export_00006.jpeg" width="200" />
 
-### Roll dices
+#### Roll dices
 <em>"In most implementations if not in all, ```Math.random```'s generator is silently seeded at startup by some supposedly random value, usually the present time to the millisecond or whatever other granularity the system provides.
 
 This means that there is no easy way to repeat a series of pseudo-random numbers in order, e.g., to determine what went wrong in a simulation. It also means that you cannot give your code to a colleague and expect that she will find what you want to show. Anything that uses ```Math.random``` is inherently not portable."</em>
 
 From [dworthen/prng repository](https://github.com/dworthen/prng?tab=readme-ov-file#no-standard-way-to-repeat-sequences)
 
-### Design a programme
+#### Design a programme
 - Create a deformed grid.  
 - Use glyphs | letters to fill grid's cells.
 - Generate random composition, explore the possible.
 
-### Control the programme
+#### Control the programme
 - Build interface to control the chance.
 - Save nice outputs for later restoring.
 
-## Useful procedures
+### Useful procedures
 Some top-level functions are included in ```utils.js``` file.
 
-### Random
+#### Random
 https://editor.p5js.org/v3ga/sketches/uDq8TsWyd
 
 Useful functions that are built upon ```random_dec()```function that returns a number between ```0.0``` and ```1.0```
@@ -54,7 +58,7 @@ var random_choice = (a) => { return a[random_int(0, a.length - 1)] }
 
 ```
 
-### Typography
+#### Typography
 https://editor.p5js.org/v3ga/sketches/f9_-ZmzGa
 
 <img src="ccfest26_typo.jpg" width="300" />
@@ -72,7 +76,7 @@ function getVerticesUniformForString(font,str,xStr,yStr,fontSize,opts={})
 }
 ```
 
-### Geometry
+#### Geometry
 https://editor.p5js.org/v3ga/sketches/QV2lJ4YfD
 
 <img src="ccfest26_quad_mapping.jpg" width="300" />
@@ -98,15 +102,23 @@ function getVerticesInQuad(vertices, quadVertices, opts={})
 }
 ```
 
-### User interface
+#### User interface
 See example here : https://editor.p5js.org/v3ga/sketches/-QbjsKGf4
 
-# CCFest26 — Recoding : Tracing the origins of generative art
-“Recoding” is a short workshop exploring the logic of early generative art through the reinterpretation of a single historical artwork: Segrid (1973) by John Roy.
+# Recoding : Tracing the origins of generative art
+“Recoding” is a short workshop exploring the logic of early generative art through the reinterpretation of a single historical artwork: [Segrid](https://recodeproject.com/artworks/v2n3-segrid) (1973) by John Roy.
+
+<a href="https://ragnar-digital.transforms.svdcdn.com/production/images/artwork/Segrid_John_Roy_11102025.jpg?w=3000&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1762802771&s=b11859ba603d3e7d3b4557bd47581e77"><img src="https://ragnar-digital.transforms.svdcdn.com/production/images/artwork/Segrid_John_Roy_11102025.jpg?w=3000&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1762802771&s=b11859ba603d3e7d3b4557bd47581e77" height="400px" /></a><a href="https://ragnar-digital.transforms.svdcdn.com/production/images/artwork/20250520_153540.jpg?w=3000&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1762802772&s=0bff021494e504b75e6a006a5467d0a5"><img src="https://ragnar-digital.transforms.svdcdn.com/production/images/artwork/20250520_153540.jpg?w=3000&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1762802772&s=0bff021494e504b75e6a006a5467d0a5" height="400px" /></a><br />
+<span style="font-size:12px"><em>Images used with the permission of Ragnar Digital</em></span>
 
 The workshop will focus on how the image is constructed through rules, repetition, variation, and algorithmic constraints, following approaches developed by pioneers of computer art in the 1960s and 70s.
 
-It builds on the recent relaunch of recodeproject.com, a platform dedicated to preserving and revisiting historical generative artworks.
+It builds on the recent relaunch of [recodeproject.com](https://recodeproject.com/), a platform dedicated to preserving and revisiting historical generative artworks.
+
+### Sketches collection
+- **Template** : https://editor.p5js.org/v3ga/sketches/MYba5nt-P
+
+
 
 
 
